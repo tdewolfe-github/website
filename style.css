@@ -2,12 +2,13 @@
 *{
   font-size:100%;
 }
-/*Body Section*/
 body {
   background-color: purple;
   color: orange;
   font-family: 'Varela Round', sans-serif;
   font-size: 25px;
+  border: 3px solid orange;
+  margin: 2px;
 }
 
 h1, h2, h3 {
@@ -18,12 +19,23 @@ h1, h2, h3 {
   text-align: center;
 }
 
-p{
-  line-height: 2;
+h1{
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
-header h1 {
-  text-align: center;
+p{
+  line-height: 1.5;
+}
+
+header {
+  padding-bottom:0px;
+}
+
+div {
+  padding-top:0px;
+  padding-bottom:15px;
 }
 
 a {
@@ -36,5 +48,15 @@ a:hover{
 }
 
 nav li {
-  display: inline;
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+div table{
+  width:100%;
+}
+body{
+  padding:10px;
 }

@@ -1,5 +1,40 @@
+/*This is a CSS Comment*/
+*{
+  font-size:100%;
+}
+/*Body Section*/
 body {
   background-color: purple;
   color: orange;
   font-family: 'Varela Round', sans-serif;
+  font-size: 25px;
+}
+
+h1, h2, h3 {
+  color: lime;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+p{
+  line-height: 2;
+}
+
+header h1 {
+  text-align: center;
+}
+
+a {
+
+  color: aquamarine;
+}
+a:hover{
+  text-decoration: underlined;
+  color:yellow;
+}
+
+nav li {
+  display: inline;
 }

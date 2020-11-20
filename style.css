@@ -8,7 +8,8 @@ body {
   font-family: 'Varela Round', sans-serif;
   font-size: 25px;
   border: 3px solid orange;
-  margin: 2px;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1, h2, h3 {
@@ -21,7 +22,7 @@ h1, h2, h3 {
 
 h1{
   font-size: 50px;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -30,7 +31,15 @@ p{
 }
 
 header {
-  padding-bottom:0px;
+  background-image: url(images/purple.jpg);
+  padding-top:20px;
+  padding-bottom:20px;
+  border: solid white 2px;
+
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 div {
@@ -54,9 +63,77 @@ nav li {
     margin-left: 70px;
     margin-right: 70px;
 }
-div table{
-  width:100%;
+
 }
 body{
-  padding:10px;
+  padding:0px;
+}
+
+header {
+    background-image: url(images/purple.jpg);
+  color:orange;
+  text-decoration: none;
+}
+
+.navmenu li a{
+  color: orange;
+}
+
+.box {
+  background-image: url(images/doublebubbledark.png);
+  background-repeat:repeat;
+  background-attachment: ;
+  background-size: ;
+  /* background-position: center; */
+
+  margin:10px;
+}
+
+.about{
+  background-image: url(images/purple.jpg);
+  border: solid white 2px;
+  margin: 10px;
+}
+.about img{
+  padding: 35px;
+}
+
+.story{
+  background-image: url(images/purple.jpg);
+  border: solid white 2px;
+  margin: 10px;
+}
+
+.characters{
+  background-image: url(images/purple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid white 2px;
+  margin: 10px;
+}
+
+.locations {
+  background-image: url(images/purple.jpg);
+  background-size: cover;
+  border: solid white 2px;
+  margin: 10px;
+}
+
+.masks {
+  background-image: url(images/purple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid white 2px;
+  margin: 10px;
+}
+
+.history{
+  background-image: url(images/purple.jpg);
+  border: solid white 2px;
+  margin: 10px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+.history h3{
+  padding: 0px;
 }
